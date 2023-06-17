@@ -27,7 +27,7 @@ def make_readme():
 	data=read_from_data()
 	os.system('rm README.md')
 	with open('README.md','a')as f:
-		f.write('## 便当的驾考知识点\n\n')
+		f.write('## 便当的驾考知识点总结!\n\n')
 		for d in data:
 			f.write('**%s**\n> 记录时间: %s\n\n'%(d['point'],d['time']))
 
