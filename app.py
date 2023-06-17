@@ -30,7 +30,7 @@ def make_readme():
 		f.write('## 便当的驾考知识点总结!\n\n')
 		f.write('> 共%s条, 还在记录中...\n\n---\n\n'%len(data))
 		for d in data:
-			f.write('**%s**\n> 记录时间: %s\n\n'%(d['point'],d['time']))
+			f.write('* **%s**\n> 记录时间: %s\n\n'%(d['point'],d['time']))
 
 def main():
 	while True:
