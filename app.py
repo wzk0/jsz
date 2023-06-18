@@ -40,5 +40,5 @@ def main():
 		else:
 			new(user)
 
-make_readme()
-# main()
+# make_readme()
+main()
