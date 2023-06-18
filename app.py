@@ -39,6 +39,5 @@ def main():
 			sys.exit()
 		else:
 			new(user)
-
-# make_readme()
-main()
+make_readme()
+# main()
